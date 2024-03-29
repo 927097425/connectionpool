@@ -1,0 +1,15 @@
+﻿  main.cpp
+  test.cpp
+D:\cpp_code\CommonConnectionpool\CommonConnectionpool\test.cpp(12,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\cpp_code\CommonConnectionpool\CommonConnectionpool\test.cpp(26,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\cpp_code\CommonConnectionpool\CommonConnectionpool\test.cpp(41,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\cpp_code\CommonConnectionpool\CommonConnectionpool\test.cpp(56,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\cpp_code\CommonConnectionpool\CommonConnectionpool\test.cpp(72,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\cpp_code\CommonConnectionpool\CommonConnectionpool\test.cpp(88,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\cpp_code\CommonConnectionpool\CommonConnectionpool\test.cpp(116,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\cpp_code\CommonConnectionpool\CommonConnectionpool\test.cpp(126,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\cpp_code\CommonConnectionpool\CommonConnectionpool\test.cpp(137,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\cpp_code\CommonConnectionpool\CommonConnectionpool\test.cpp(147,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\cpp_code\CommonConnectionpool\CommonConnectionpool\test.cpp(166,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+  CommonConnectionpool.vcxproj -> D:\cpp_code\CommonConnectionpool\x64\Debug\CommonConnectionpool.exe
