@@ -34,28 +34,58 @@ Connection.cpp和Connection.h：数据库操作代码、增删改查代码实现
 # 压力测试
 通过测试模块Test.h和Test.c实现了压力测试，分别测试了1000、5000、10000数据量下的并发请求响应时间。
 ![image](https://github.com/927097425/connectionpool/assets/78626482/5fc60a26-5643-4ab5-ac16-dd390dd980e3)
+
 ![image](https://github.com/927097425/connectionpool/assets/78626482/e2bfdbb6-b7a1-4736-99f2-05cbff1d472a)
+
 ![image](https://github.com/927097425/connectionpool/assets/78626482/640d1e51-1f5a-44d0-afbc-b52dcc8bf956)
 列成表如下
+### 单线程
 <table>
     <tr>
-        <td>行1列1</td> 
-        <td>行1列2</td> 
-        <td>行1列3</td> 
+        <td>数据量</td> 
+        <td>未使用连接池花费时间(ms)</td> 
+        <td>使用连接池花费时间(ms)</td> 
    </tr>
     <tr>
-  		<td>行2列1</td> 
-        <td>行2列2</td> 
-        <td>行2列3</td> 
+  		<td>1000</td> 
+        <td>8740</td> 
+        <td>2795</td> 
     </tr>
     <tr>
-        <td>行3列1</td> 
-        <td>行3列2</td> 
-        <td>行3列3</td> 
+        <td>5000</td> 
+        <td>45124</td> 
+        <td>15618</td> 
+    </tr>
+    <tr>
+        <td>10000</td> 
+        <td>91379</td> 
+        <td>27566</td> 
     </tr>
 </table>
-————————————————
 
-                            萌
-                        
-原文链接：https://blog.csdn.net/dream_summer/article/details/110822636
+### 四线程
+
+<table>
+    <tr>
+        <td>数据量</td> 
+        <td>未使用连接池花费时间(ms)</td> 
+        <td>使用连接池花费时间(ms)</td> 
+   </tr>
+    <tr>
+  		<td>1000</td> 
+        <td>8708</td> 
+        <td>1235</td> 
+    </tr>
+    <tr>
+        <td>5000</td> 
+        <td>44666</td> 
+        <td>6093</td> 
+    </tr>
+    <tr>
+        <td>10000</td> 
+        <td>91228</td> 
+        <td>12538</td> 
+    </tr>
+</table>
+
+可见线程池的添加能够使高并发访问mysql数据库的效率提高。
