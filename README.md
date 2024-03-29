@@ -48,9 +48,9 @@ Connection.cpp和Connection.h：数据库操作代码、增删改查代码实现
         <td center>使用连接池花费时间(ms)</td> 
    </tr>
     <tr>
-  		<td>1000</td> 
-        <td>8740</td> 
-        <td>2795</td> 
+  		<td center>1000</td> 
+        <td center>8740</td> 
+        <td center>2795</td> 
     </tr>
     <tr>
         <td>5000</td> 
