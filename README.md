@@ -43,24 +43,24 @@ Connection.cpp和Connection.h：数据库操作代码、增删改查代码实现
 ### 单线程
 <table>
     <tr>
-        <td center>数据量</td> 
-        <td center>未使用连接池花费时间(ms)</td> 
-        <td center>使用连接池花费时间(ms)</td> 
+        <td align = "center">数据量</td> 
+        <td align = "center">未使用连接池花费时间(ms)</td> 
+        <td align = "center">使用连接池花费时间(ms)</td> 
    </tr>
     <tr>
-  		<td center>1000</td> 
-        <td center>8740</td> 
-        <td center>2795</td> 
+  		<td align = "center">1000</td> 
+        <td align = "center">8740</td> 
+        <td align = "center">2795</td> 
     </tr>
     <tr>
-        <td>5000</td> 
-        <td>45124</td> 
-        <td>15618</td> 
+        <td align = "center">5000</td> 
+        <td align = "center">45124</td> 
+        <td align = "center">15618</td> 
     </tr>
     <tr>
-        <td>10000</td> 
-        <td>91379</td> 
-        <td>27566</td> 
+        <td align = "center">10000</td> 
+        <td align = "center">91379</td> 
+        <td align = "center">27566</td> 
     </tr>
 </table>
 
