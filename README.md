@@ -38,13 +38,14 @@ Connection.cpp和Connection.h：数据库操作代码、增删改查代码实现
 ![image](https://github.com/927097425/connectionpool/assets/78626482/e2bfdbb6-b7a1-4736-99f2-05cbff1d472a)
 
 ![image](https://github.com/927097425/connectionpool/assets/78626482/640d1e51-1f5a-44d0-afbc-b52dcc8bf956)
+
 列成表如下
 ### 单线程
 <table>
     <tr>
-        <td>数据量</td> 
-        <td>未使用连接池花费时间(ms)</td> 
-        <td>使用连接池花费时间(ms)</td> 
+        <td center>数据量</td> 
+        <td center>未使用连接池花费时间(ms)</td> 
+        <td center>使用连接池花费时间(ms)</td> 
    </tr>
     <tr>
   		<td>1000</td> 
